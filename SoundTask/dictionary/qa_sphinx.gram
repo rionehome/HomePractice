@@ -1,0 +1,4 @@
+#JSGF V1.0;
+grammar qa_sphinx;
+public <rule> = <question>;
+<question> = what is your favorite food | what is your favorite sports | how often do you eat steak in a week | do you have a lot of girlfriend | where do you think that the most beautiful place;
