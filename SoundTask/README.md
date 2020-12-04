@@ -7,6 +7,7 @@
 $ python -m pip install --upgrade pip setuptools wheel
 $ pip install --upgrade pocketsphinx
 ```
+[参考]　[14期生東雲陽美さんの開発日誌](http://rione.org/dokuwiki/14%E6%9C%9F%E7%94%9F/%E6%9D%B1%E9%9B%B2%E9%99%BD%E7%BE%8E/%E9%96%8B%E7%99%BA%E6%97%A5%E8%AA%8C)
 
 - Svoxpico
 ```
