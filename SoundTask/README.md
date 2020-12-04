@@ -16,8 +16,7 @@ $ sudo apt-get install -y libttspico-utils
 - ReSpeaker
 以下パソコンにReSpeakerを繋いだ状態で
 ```
-$ git checkout develop 
-$ cd sound_system/prepare_tools/
+$ cd ./setup/
 $ sh respeaker.sh
 ```
 - dlib
