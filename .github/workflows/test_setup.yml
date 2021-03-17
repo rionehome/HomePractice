@@ -1,0 +1,20 @@
+name: setup_test
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  build:
+    
+    runs-on: ubuntu-18.04
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: setup ROS Melodic
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
+          cd ~
+          mkdir test
+          cd test
+          git clone https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu18.04_desktop
+          cd ros_setup_scripts_Ubuntu18.04_desktop
