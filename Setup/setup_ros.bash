@@ -15,11 +15,10 @@ cd ~/catkin_ws
 cat ~/.bashrc
 source ~/.bashrc
 source /opt/ros/melodic/setup.bash
-echo "######################################################################"
+echi "##########"
 echo $ROS_VERSION
+echi "##########"
 cd ~/catkin_ws/src
 catkin_init_workspace
 cd ~/catkin_ws
 catkin_make
-#roscore
-#catkin_make
