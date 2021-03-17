@@ -10,8 +10,8 @@ sudo ./step1.bash
 source ~/.bashrc
 
 # Create catkin_ws
-mkdir -p ~/catkin_ws/src
-cd ~/catkin_ws
-cat ~/.bashrc
+#mkdir -p ~/catkin_ws/src
+#cd ~/catkin_ws
+#cat ~/.bashrc
 #roscore
 #catkin_make
