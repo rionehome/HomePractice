@@ -9,6 +9,6 @@ https://demura.net/robot/hard/19934.html
 ## Installation
 
 ```
-$ ./setup_ros.bash
-$ ./setup_simulator.bash
+$ bash ./setup_ros.bash
+$ bash ./setup_simulator.bash
 ```

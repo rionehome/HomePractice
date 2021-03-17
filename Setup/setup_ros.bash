@@ -6,7 +6,7 @@ sudo apt -y upgrade
 cd ~
 git clone https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu18.04_desktop
 cd ros_setup_scripts_Ubuntu18.04_desktop
-./step1.bash
+sudo ./step1.bash
 source ~/.bashrc
 
 # Create catkin_ws

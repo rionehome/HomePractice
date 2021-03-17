@@ -11,5 +11,5 @@ jobs:
       - uses: actions/checkout@v2
       - name: setup
         run: |
-          ./Setup/setup_ros.bash
-          ./Setup/setup_simulator.bash
+          bash ./Setup/setup_ros.bash
+          bash ./Setup/setup_simulator.bash
