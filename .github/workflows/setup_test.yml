@@ -9,7 +9,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: setup
+      - name: setup ROS
         run: |
           bash ./Setup/setup_ros.bash
+      - name: setup simulator
+        run: |
           bash ./Setup/setup_simulator.bash
