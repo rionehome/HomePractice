@@ -12,5 +12,6 @@ source ~/.bashrc
 # Create catkin_ws
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws
-roscore
+cat ~/.bashrc
+#roscore
 #catkin_make
