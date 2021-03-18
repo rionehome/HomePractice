@@ -11,7 +11,7 @@ source ~/.bashrc
 sudo rosdep fix-permissions
 
 # Create catkin_ws
-#mkdir -p ~/catkin_ws/src
+mkdir -p ~/catkin_ws/src
 #cd ~/catkin_ws
 #cat ~/.bashrc
 #source ~/.bashrc
