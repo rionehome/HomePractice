@@ -1,7 +1,7 @@
 #!/bin/bash -xve
 
 cd ~/catkin_ws
-url -sLf https://raw.githubusercontent.com/gaunthan/Turtlebot2-On-Melodic/master/install_basic.sh | bash
+curl -sLf https://raw.githubusercontent.com/gaunthan/Turtlebot2-On-Melodic/master/install_basic.sh | bash
 cd ~/catkin_ws
 catkin_make
 source ./devel/setup.bash
