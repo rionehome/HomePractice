@@ -48,10 +48,10 @@ $ rosmsg show geometry_msgs/Twist
 自分でパッケージを作成し，その２で入力したコマンドを送るpublisherを実装．完成したらgithubにあげる．余裕があれば、launchファイルから起動できるように．  
 
 - 参考にするサイト  
-https://kato-robotics.hatenablog.com/entry/2019/02/18/053255
-http://wiki.ros.org/ja/ROS/Tutorials/UnderstandingNodes
-http://wiki.ros.org/ja/ROS/Tutorials/UnderstandingTopics
-http://wiki.ros.org/ja/ROS/Tutorials
+https://kato-robotics.hatenablog.com/entry/2019/02/18/053255  
+http://wiki.ros.org/ja/ROS/Tutorials/UnderstandingNodes  
+http://wiki.ros.org/ja/ROS/Tutorials/UnderstandingTopics  
+http://wiki.ros.org/ja/ROS/Tutorials  
 http://wiki.ros.org/ja
 
 ## Week4 Turtlebot2を動かす
