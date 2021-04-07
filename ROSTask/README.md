@@ -55,7 +55,7 @@ http://wiki.ros.org/ja/ROS/Tutorials
 http://wiki.ros.org/ja
 
 ## Week4 Turtlebot2を動かす
-
+https://github.com/rionehome/Turtlebot2-On-Melodic/blob/master/README.md
 - setup  
 HomePractice/Setup/setup_turtlebot2.bash を使用．
 
