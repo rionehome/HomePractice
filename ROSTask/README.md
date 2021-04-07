@@ -55,11 +55,12 @@ http://wiki.ros.org/ja/ROS/Tutorials
 http://wiki.ros.org/ja
 
 ## Week4 Turtlebot2を動かす
+
+内容は以下のリポジトリから抜粋
+
 https://github.com/rionehome/Turtlebot2-On-Melodic/blob/master/README.md
 - setup  
 HomePractice/Setup/setup_turtlebot2.bash を使用．
 
 - 実装  
 roslaunch turtlebot_teleop keyboard_teleop.launch のトピック通信を参考にし，宿題で作成してきたプログラムを改良することで，Turtlebot2を動かす．
-
-
