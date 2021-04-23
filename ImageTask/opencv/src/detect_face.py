@@ -1,14 +1,14 @@
 import cv2
 
 try:
-    img = cv2.imread('/home/ri-one/opencv/image/face.jpg')
+    img = cv2.imread('../image/face.jpg')
 
     if img is None:
         print('ファイルを読み込めません。')
         import sys
         sys.exit()
 
-    cascade = cv2.CascadeClassifier(r'/home/ri-one/opencv/haarcascades/haarcascade_frontalface_alt.xml')
+    cascade = cv2.CascadeClassifier(r'../haarcascades/haarcascade_frontalface_alt.xml')
     facerect = cascade.detectMultiScale(img)
 
     if len(facerect) > 0:
@@ -17,7 +17,7 @@ try:
     else:
         print('no face')
 
-    cv2.imwrite('/home/ri-one/opencv/image/detected.jpg', img)
+    cv2.imwrite('../image/detected.jpg', img)
     cv2.imshow('img', img)
 
     cv2.waitKey(0)
