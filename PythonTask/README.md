@@ -1,12 +1,4 @@
 PythonTask
 ===
 
-## LICENSE
-
-Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
-
-https://creativecommons.org/licenses/by-nc/4.0/
-
-## Author
-
-https://github.com/ymyzk
+https://utokyo-ipp.github.io/index.html も良い資料である
