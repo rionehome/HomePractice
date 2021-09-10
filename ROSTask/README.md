@@ -30,7 +30,7 @@ $ rosrun turtlesim turtle_teleop_key
 キーボードの矢印で亀を動かすことができる．  
 新しい端末で
 ```
-$ rosrun rqt_graph qrt_graph
+$ rosrun rqt_graph rqt_graph
 ```
 トピック通信の様子が確認できる．  
 rosrun turtlesim_teleop_keyを終了して，新しくコマンドを入力する．
