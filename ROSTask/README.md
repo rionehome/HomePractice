@@ -25,7 +25,7 @@ ssh ubuntu.... というコマンドを動画内で実行していますが、�
 ```
 $ roscore
 $ rosrun turtlesim turtlesim_node
-$ rosrun turtlesim_teleop_key
+$ rosrun turtlesim turtle_teleop_key
 ```
 キーボードの矢印で亀を動かすことができる．  
 新しい端末で
